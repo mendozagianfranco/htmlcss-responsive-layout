@@ -64,23 +64,45 @@ main .introduction h2 .additional-title {
 
 .card {
     background-color: #fff;
+    box-shadow: 1px 3px 5px #e2e0e1;
 }
 
 .card .bottom-card {
-    padding: 25px;
+    padding: 30px;
 }
 
 .card h3 {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 .card .bottom-card .description-card > * {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 /*** RESPONSIVE */
 
 @media screen and (min-width: 768px) {
+    .container {
+        padding: 0 60px;
+    }
+
     header h1 {
         text-align: left;
+    }
+
+    main .introduction h2 {
+        font-size: 30px;
+    }
+
+    main .introduction h2 .additional-title {
+        display: inline;
+    }
+
+    .card .bottom-card .description-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card .bottom-card .description-card div {
+        width: calc(100% / 3);
     }
 }
