@@ -43,6 +43,11 @@ img {
     height: 100%;
 }
 
+a {
+    color: unset;
+    text-decoration: none;
+}
+
 /*** MAIN ***/
 
 /* INTRODUCTION */
@@ -84,6 +89,7 @@ main .introduction h2 .additional-title {
 }
 
 /* LINKS SOCIAL */
+
 main .links-social {
     display: flex;
     justify-content: space-between;
@@ -98,6 +104,7 @@ main .links-social > div {
 
 main .links-social .link-text {
     display: none;
+    text-transform: uppercase;
 }
 
 main .links-social .link-facebook {
