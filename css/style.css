@@ -39,6 +39,7 @@ section {
 img {
     width: 100%;
     display: block;
+    height: 100%;
 }
 
 /*** MAIN ***/
@@ -104,5 +105,35 @@ main .introduction h2 .additional-title {
 
     .card .bottom-card .description-card div {
         width: calc(100% / 3);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    main .introduction h2 {
+        font-size: 40px;
+    }
+
+    main .card {
+        display: flex;
+    }
+
+    main .img-card {
+        flex-grow: 2;
+    }
+
+    main .card .bottom-card {
+        max-width: 400px;
+    }
+
+    .card .bottom-card .description-card {
+        display: block;
+    }
+
+    .card .bottom-card .description-card div {
+        width: 100%;
     }
 }
