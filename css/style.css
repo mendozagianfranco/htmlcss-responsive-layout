@@ -48,6 +48,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /*** MAIN ***/
 
 /* INTRODUCTION */
@@ -153,6 +157,31 @@ main .presentation img {
 
 main .presentation p {
     line-height: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #7c69a4;
+    color: #fff;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+footer .text-footer p {
+    padding: 20px 0;
+}
+
+footer .links-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer .links-footer a {
+    text-decoration: underline;
 }
 
 /*** RESPONSIVE */
