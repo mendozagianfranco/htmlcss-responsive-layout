@@ -104,6 +104,7 @@ main .links-social > div {
 
 main .links-social .link-text {
     display: none;
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -151,6 +152,16 @@ main .links-social .link-youtube {
     .card .bottom-card .description-card div {
         width: calc(100% / 3);
     }
+
+    main .links-social {
+        gap: 25px;
+    }
+
+    main .links-social > div {
+        text-align: center;
+        width: 100%;
+        border-radius: 100px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -180,5 +191,9 @@ main .links-social .link-youtube {
 
     .card .bottom-card .description-card div {
         width: 100%;
+    }
+
+    main .links-social .link-text {
+        display: inline;
     }
 }
