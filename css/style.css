@@ -188,6 +188,8 @@ footer .links-footer a {
 
 /*** RESPONSIVE */
 
+/* MOBILE/ MOBILE LARGE */
+
 @media screen and (min-width: 576px) {
     header {
         position: sticky;
@@ -208,6 +210,8 @@ footer .links-footer a {
         border-radius: 100px;
     }
 }
+
+/* TABLET */
 
 @media screen and (min-width: 768px) {
     .container {
@@ -239,6 +243,8 @@ footer .links-footer a {
         display: block;
     }
 }
+
+/* DESKTOP */
 
 @media screen and (min-width: 992px) {
     .container {
