@@ -27,10 +27,54 @@ header h1 {
     text-shadow: 1px 1px 3px #9d8e7c;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
 /*** MAIN ***/
 
 main {
     background-color: #f6f5f3;
+    padding-top: 20px;
+}
+
+main .introduction .category {
+    color: #999;
+    text-transform: uppercase;
+}
+
+main .introduction h2 {
+    color: #4e3969;
+    padding: 15px 0;
+}
+
+main .introduction h2 .additional-title {
+    display: none;
+}
+
+.card {
+    background-color: #fff;
+}
+
+.card .bottom-card {
+    padding: 25px;
+}
+
+.card h3 {
+    padding-bottom: 25px;
+}
+.card .bottom-card .description-card > * {
+    padding-bottom: 15px;
 }
 
 /*** RESPONSIVE */
