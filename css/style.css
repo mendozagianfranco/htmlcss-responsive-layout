@@ -6,10 +6,17 @@
     box-sizing: border-box;
 }
 
+/*** COMMON ***/
+
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+}
+
 /*** HEADER ***/
 
 header h1 {
-    font-family: 'Nerko One', serif;
+    font-family: 'Nerko One', cursive;
     font-weight: 400;
     font-style: normal;
     color: #ff9614;
