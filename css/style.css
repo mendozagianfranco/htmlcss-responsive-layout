@@ -25,6 +25,7 @@ header h1 {
     font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px 3px #9d8e7c;
+    background-color: #fff;
 }
 
 .container {
@@ -187,6 +188,27 @@ footer .links-footer a {
 
 /*** RESPONSIVE */
 
+@media screen and (min-width: 576px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    main .presentation img {
+        float: left;
+    }
+
+    main .links-social {
+        gap: 25px;
+    }
+
+    main .links-social > div {
+        text-align: center;
+        width: 100%;
+        border-radius: 100px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
         padding: 0 60px;
@@ -213,22 +235,8 @@ footer .links-footer a {
         width: calc(100% / 3);
     }
 
-    main .links-social {
-        gap: 25px;
-    }
-
-    main .links-social > div {
-        text-align: center;
-        width: 100%;
-        border-radius: 100px;
-    }
-
     main .banner-ad {
         display: block;
-    }
-
-    main .presentation img {
-        float: left;
     }
 }
 
