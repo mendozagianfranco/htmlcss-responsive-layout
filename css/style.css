@@ -45,6 +45,8 @@ img {
 
 /*** MAIN ***/
 
+/* INTRODUCTION */
+
 main {
     background-color: #f6f5f3;
     padding-top: 20px;
@@ -76,8 +78,43 @@ main .introduction h2 .additional-title {
 .card h3 {
     padding-bottom: 30px;
 }
+
 .card .bottom-card .description-card > * {
     padding-bottom: 25px;
+}
+
+/* LINKS SOCIAL */
+main .links-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .links-social > div {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 45%;
+    box-shadow: 1px 3px 5px #e2e0e1;
+}
+
+main .links-social .link-text {
+    display: none;
+}
+
+main .links-social .link-facebook {
+    color: #1a77f3;
+}
+
+main .links-social .link-twitter {
+    color: #009eff;
+}
+
+main .links-social .link-instagram {
+    color: #dc3da3;
+}
+
+main .links-social .link-pinterest,
+main .links-social .link-youtube {
+    color: #e62222;
 }
 
 /*** RESPONSIVE */
