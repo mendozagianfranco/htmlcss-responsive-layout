@@ -130,6 +130,30 @@ main .banner-ad {
     display: none;
 }
 
+/* PRESENTATION */
+
+main .presentation > * {
+    margin-bottom: 20px;
+}
+
+main .presentation h2 {
+    font-weight: 500;
+}
+
+main .presentation hr {
+    border: 1px solid #f7972e;
+    width: 100px;
+}
+
+main .presentation img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+main .presentation p {
+    line-height: 30px;
+}
 /*** RESPONSIVE */
 
 @media screen and (min-width: 768px) {
