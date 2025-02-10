@@ -177,6 +177,7 @@ footer .links-footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 25px;
 }
 
@@ -262,5 +263,12 @@ footer .links-footer a {
 
     main .links-social .link-text {
         display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
     }
 }
